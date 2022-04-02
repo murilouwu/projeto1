@@ -1,2 +1,80 @@
-/**/
+body{
+    background-color: #03658C;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.topo{
+    width: 100vw;
 
+    background: rgb(3,101,140);
+    background: radial-gradient(circle, rgba(3, 101, 140, 0.397) 0%, rgba(24, 60, 74, 0.836) 100%);
+
+    text-align-last: center;
+    font-family: sans-serif;
+    color: #a5c8d6 ;
+}
+.fid{
+    border: 0;
+    border-radius: 10px;
+    width: 80vw;
+    height: 50vh;
+    border-color: #025951;
+}
+.centro{
+    margin: 5%;
+    border-radius: 30px;
+    background-color: #3382a1;
+}
+.r{
+  width: 100vw;
+  height: 33vh;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2vh;
+  color: #f5fcff;
+  background-color: #126e54;
+}
+#res{
+  font-size: 3vh;
+}
+#tri{
+  width: auto;
+  height: 18vh;
+}
+.in{
+  margin-top: 3vh;
+  border-radius: 30px;
+  border-width: 0px;
+  width: 80vw;
+  height: 8vh;
+  font-size: 3vh;
+  font-family: Lucida Sans;
+  text-align: center;
+  background-color: #cde7f1;
+}
+#env{
+  margin-left: 10vw;
+  border-radius: 30px;
+  border-width: 0px;
+  width: 60vw;
+  height: 8vh;
+  font-size: 3vh;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #cde7f1;
+  color: #2c4650;
+}
+#env:hover{
+  background-color: #32a3d3;
+  color: rgb(216, 222, 226);
+  width: 65vw;
+  height: 10vh;
+  margin-left: 7vw;
+}
+#env:active{
+  background-color: #449abe;
+  color: rgb(216, 222, 226);
+  width: 55vw;
+  height: 6vh;
+  margin-left: 13vw;
+}
