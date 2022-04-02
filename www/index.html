@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
-
   <link rel="stylesheet" href="components/loader.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
   <link rel="stylesheet" href="css/style.css">
-
-  <script>
-    ons.ready(function() {
-      console.log("Onsen UI is ready!");
-    });
-
-    if (ons.platform.isIPhoneX()) {
-      document.documentElement.setAttribute('onsflag-iphonex-portrait', '');
-      document.documentElement.setAttribute('onsflag-iphonex-landscape', '');
-    }
-  </script>
 </head>
 <body>
-  This is a template for Onsen UI app.
+    <header class="topo">
+        <h1>TRIÂNGULO</h1>
+    </header>
+    <main class="centro">
+            <fieldset class="fid">
+                <input type="text" class="in" id="v1" placeholder="Escreva valor do 1 lado:"><br>
+                <input type="text" class="in" id="v2" placeholder="Escreva valor do 2 lado:"><br>
+                <input type="text" class="in" id="v3" placeholder="Escreva valor do 3 lado:"><br>
+                <br><br><button onclick="ver()" id="env">ENVIAR</button>
+            </fieldset>
+    </main>
+    <div class="r">
+      <h1>As Medidas:</h1>
+      <div>
+        <img src="triangulos/triX.png" id="tri">
+        <h1 id="res">?</h1>
+      </div>
+    </div>
 </body>
 </html>
